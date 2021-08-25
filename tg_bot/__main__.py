@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey  {}, (https://telegra.ph//file/2d997c5999a78e169a154.jpg) My Name mila a powerfull Group Management Bot 😊 Feel Free to Add Me to Your Group Dont Forget To subscribe our Updates Channel Given Below.
+Hey  {}, My Name mia a powerfull Group Management Bot 😊 Feel Free to Add Me to Your Group Dont Forget To subscribe our Updates Channel Given Below.
 
 """
 
