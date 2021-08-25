@@ -138,9 +138,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text=" Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="UPDATES", url="https://t.me/team_lad")],
+                    [[InlineKeyboardButton(text=" ADD ME TO UR GROUP", url="t.me/{}?startgroup=true".format(bot.username))],  [InlineKeyboardButton(text="UPDATES", url="https://t.me/team_lad")],
                      [InlineKeyboardButton(text="SUPPORT", url="https://t.me/teamladz_bothub"), InlineKeyboardButton(text="DEV", url="https://t.me/OK_BIE_BOT")],
-                     [InlineKeyboardButton(text="😒😒", url="https://t.me/Ok_bie_bot"), InlineKeyboardButton(text=" HELP", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text=" HELP", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
