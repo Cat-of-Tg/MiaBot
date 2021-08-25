@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text=" ADD ME TO UR GROUP", url="t.me/{}?startgroup=true".format(bot.username))],  [InlineKeyboardButton(text="UPDATES", url="https://t.me/team_lad")],
                      [InlineKeyboardButton(text="SUPPORT", url="https://t.me/teamladz_bothub"), InlineKeyboardButton(text="DEV", url="https://t.me/OK_BIE_BOT")],
-                     [InlineKeyboardButton(text=" HELP", callback_data="help_back")]
+                     [InlineKeyboardButton(text=" HELP", callback_data="help_back") ]]))
  
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
