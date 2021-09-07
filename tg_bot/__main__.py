@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey  {}, My Name Mia a powerfull Group Management Bot [😊](https://telegra.ph//file/2d997c5999a78e169a154.jpg)  Feel Free to Add Me to Your Group Dont Forget To subscribe our Updates Channel Given Below.
+Hey  {}, My Name Mia a powerfull Group Management Bot [😊](https://telegra.ph/file/67a65df51765aa7962cea.jpg)  Feel Free to Add Me to Your Group Dont Forget To subscribe our Updates Channel Given Below.
 
 """
 
@@ -139,11 +139,11 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text=" ADD ME TO UR GROUP", url="t.me/{}?startgroup=true".format(bot.username))],  [InlineKeyboardButton(text="UPDATES", url="https://t.me/team_lad")],
-                     [InlineKeyboardButton(text="SUPPORT", url="https://t.me/teamladz_bothub"), InlineKeyboardButton(text="DEV", url="https://t.me/OK_BIE_BOT")],
+                     [InlineKeyboardButton(text="SUPPORT", url="https://t.me/teamladz_bothub"), InlineKeyboardButton(text="SOURCE CODE", url="https://t.me/OK_BIE_BOT")],
                      [InlineKeyboardButton(text=" HELP", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
-        update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
+        update.effective_message.reply_text("I AM ALIVE ❤").
 
 
 # for test purposes
