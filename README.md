@@ -1,8 +1,11 @@
-# tgbot
+# Mia Bot
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
-Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
-simple to use.
+
+<a href="https://t.me/Mia_ladBot">
+<p align="center">
+  <img src="https://telegra.ph/file/05550e50b1c8a440503ce.jpg">
+</p>
 
 Can be found on telegram as [MIA](https://t.me/Mia_LadBot).
 
