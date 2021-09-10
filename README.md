@@ -11,7 +11,7 @@ Can be found on telegram as [MIA](https://t.me/Mia_LadBot).
 
 If u Want support Ask on our[support group](https://t.me/teamladz_bothub)
 
-Join the [news channel](https://t.me/KochuUpdates) if you just want to stay in the loop about new features or
+Join the [news channel](https://t.me/team_lad) if you just want to stay in the loop about new features or
 announcements.
 
 Alternatively, [find me on telegram](https://t.me/ok_bie_bot)! 
